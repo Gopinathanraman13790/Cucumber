@@ -34,7 +34,7 @@ public class Login {
 	@Then("^the user should be in managers home page$")
 	public void the_user_should_be_in_managers_home_page() {
 	    // Write code here that turns the phrase above into concrete actions
-		Assert.assertEquals("http://demo.guru99.com/V4/manager/Managerhomepage.php","driver.getCurrentUrl()");
+		Assert.assertEquals("http://demo.guru99.com/V4/manager/Managerhomepage.php",driver.getCurrentUrl());
 		
 	    
 	}
